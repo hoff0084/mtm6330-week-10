@@ -29,7 +29,6 @@ $(document).ready(function ($) {
   // console.log($('img:first').hasClass('special'))
   // $('img').addClass('special')
   $('img').toggleClass('special')
-})
 
 /* EVENTS */
 // $('img').on('click', function() {
@@ -77,4 +76,13 @@ for (var i = 0; i < numPos; i++) {
   post += '</p></div>'
   $('#post').append(post)
 }
+})
+
+AOS.init()
+
+
+
+
+
+
 })
